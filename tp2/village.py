@@ -10,6 +10,11 @@ class village :
     def ajouter_habitant_agregation(self, habitant):
         self.habitant.append(habitant)
 
+    def afficher_habitants(self):
+        for habitant in self.habitants:
+            habitant.afficher_habitant()
+
+
 
 #on peut voir que sur la fonction de composition cette derniere illustre bien le principe
 #car on peut voir la relation forte, les objets sont liés
