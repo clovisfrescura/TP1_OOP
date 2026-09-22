@@ -1,7 +1,7 @@
 class village :
     def __init__(self, nom) : 
         self.nom = nom
-        self.habitant = []
+        self.habitant =[]
 
     def ajouter_habitant_composition(self, nom, age, adresse, animaux = None):
         nouvel_habitant = habitant ( nom, age, adresse, animaux)
